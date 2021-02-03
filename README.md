@@ -43,4 +43,4 @@ PCにカメラを繋いでください。標準搭載のWebカメラでも大丈
 
 ## Licence
 
-[MIT]
+[MIT Licence](https://github.com/y-taka-avant/makePienFromCircle/blob/main/LICENSE)
