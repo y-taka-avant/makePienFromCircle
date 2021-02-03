@@ -19,9 +19,14 @@ You can convert a circle caputured by your camera to Peading Face(It is called "
 ## How to Start
 
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+git clone https://github.com/y-taka-avant/makePienFromCircle.git
+cd makePienFromCircle
+python main.py
+```
+
+if you don't have opencv-python package, install from this command.
+```bash 
+pip install opencv-python
 ```
 
 ## Usage
@@ -31,10 +36,6 @@ When start the application, you display something circular like balls, watches, 
 
 PCにカメラを繋いでください。標準搭載のWebカメラでも大丈夫です。
 アプリを起動したら円形のものにかざしてください。
-
-## Features
-
-## Reference
 
 ## Author
 
