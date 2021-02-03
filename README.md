@@ -1,6 +1,6 @@
 # makePienfromCircle
 
-![pien](https://user-images.githubusercontent.com/78395651/106711543-0355f280-663b-11eb-81ea-01a71eafb6b4.gif)
+![out](https://user-images.githubusercontent.com/78395651/106711835-719ab500-663b-11eb-91ec-00facd25fd3f.gif)
 
 ## Overview
 
