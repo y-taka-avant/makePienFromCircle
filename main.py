@@ -5,18 +5,11 @@ import numpy as np
 #get video from camera
 cap = cv2.VideoCapture(0)
 
-save = False
-
 height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
 frame_rate = int(cap.get(cv2.CAP_PROP_FPS)/3)
 
 size = (int(width*2/3), int(height*2/3))
-
-#choose output video format
-#default is mp4
-fmt = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
-writer = cv2.VideoWriter('./out.mp4', fmt, frame_rate, size)
 
 while True:
     ret, frame = cap.read()
@@ -63,18 +56,11 @@ while True:
             cv2.ellipse(frame, (x, y+r), (int(r/4), int(r/2)), 0, 245, 295, (19, 69, 139), 5)
 
     #display the video
-    cv2.imshow("frame", frame)
-
-    if save:
-        writer.write(frame)
-
-    if cv2.waitKey(1)&0xff == ord("s"):
-        save = True
+    cv2.imshow('frame', frame)
 
     #press q to finish
-    if cv2.waitKey(1)&0xff == ord("q"):
+    if cv2.waitKey(1)&0xff == ord('q'):
         break
 
-writer.release()
 cap.release()
 cv2.destroyAllWindows()
