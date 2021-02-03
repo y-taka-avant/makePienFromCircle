@@ -20,8 +20,8 @@ You can convert a circle caputured by your camera to Peading Face(It is called "
 
 ```bash
 git clone https://github.com/y-taka-avant/makePienFromCircle.git
-cd makePienFromCircle
-python main.py
+cd makePienFromCircle-main
+python3 main.py
 ```
 
 if you don't have opencv-python package, install from this command.
