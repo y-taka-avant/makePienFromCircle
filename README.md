@@ -44,3 +44,6 @@ PCにカメラを繋いでください。標準搭載のWebカメラでも大丈
 ## Licence
 
 [MIT Licence](https://github.com/y-taka-avant/makePienFromCircle/blob/main/LICENSE)
+
+なお、本リポジトリに公開されているソースコードは、アヴァント株式会社の提供するシステムとは関係ありません。
+
