@@ -25,6 +25,7 @@ python3 main.py
 ```
 
 if you don't have opencv-python package, install from this command.
+
 もしopencv-pythonのパッケージがない場合には、以下のコマンドを実行してインストールしてください。
 ```bash 
 pip install opencv-python
