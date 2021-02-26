@@ -10,7 +10,7 @@ You can convert a circle caputured by your camera to Peading Face(It is called "
 これはOpenCVのハフ変換を使った簡単なアプリケーションです。
 カメラに映った円形を全てぴえんに変形するものです。
 
-## Reqirement
+## Requirement
 
 - Python 3.7.7
 - numpy 1.18.5
